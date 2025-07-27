@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --shadow-primary: 0 10px 20px rgba(0, 0, 0, 0.05);
+  --color-primary: #4f6df5;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+:root {
+  --color-primary-bg: #f7f9fc;
+  --color-primary: #2196f3;
+  --color-text-primary: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
+
+i {
+  display: flex;
+  margin-top: 1px;
+}
+
+.ant-input-number {
+  width: 100%;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
